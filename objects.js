@@ -4,9 +4,8 @@ playlist['My Bloody Valentine'] = 'Sometimes'
 console.log(playlist);
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  var newPlaylist = Object.assign({}, playlist, { 'Phil Ochs': "Here's to the State of Mississippi" });
-  console.log(newPlaylist);
-  return newPlaylist
+  playlist[artistName] = songTitle;
+  return playlist
 }
 updatePlaylist(playlist, "beatles", "Norwegian Wood");
 
