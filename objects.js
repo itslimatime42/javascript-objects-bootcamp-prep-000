@@ -2,7 +2,8 @@ var playlist = { stones: "Cant You Hear Me Knockin" };
 console.log(playlist);
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  return Object.assign({}, playlist, { [artistName]: songTitle })
+  var newPlaylist = Object.assign({}, playlist, { [artistName]: songTitle });
+  console.log(newPlaylist);
 }
 
 function removeFromPlaylist(oldplaylist, artist) {
