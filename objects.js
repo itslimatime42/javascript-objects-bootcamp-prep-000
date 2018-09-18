@@ -1,7 +1,6 @@
-var playlist = { 
-  "Slowdive": "Alison", 
-  "My Bloody Valentine": "Sometimes"
-};
+var playlist = new Object();
+playlist['Slowdive'] = 'Alison'
+playlist['My Bloody Valentine'] = 'Sometimes'
 console.log(playlist);
 
 function updatePlaylist(playlist, artistName, songTitle) {
