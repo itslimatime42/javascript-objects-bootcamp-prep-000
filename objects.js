@@ -1,5 +1,8 @@
-var playlist = { stones: "Cant You Hear Me Knockin" };
+var playlist = { "Slowdive": "Alison", "My Bloody Valentine": "Sometimes" };
 console.log(playlist);
+
+playlist['Slowdive'] = 'Alison'
+      playlist['My Bloody Valentine'] = 'Sometimes'
 
 function updatePlaylist(playlist, artistName, songTitle) {
   var newPlaylist = Object.assign({}, playlist, { [artistName]: songTitle });
