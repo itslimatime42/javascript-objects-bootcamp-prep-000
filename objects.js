@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 updatePlaylist(playlist, "beatles", "Norwegian Wood");
 
-function removeFromPlaylist(oldplaylist, artist) {
-  delete oldplaylist.artist;
-  return oldplaylist
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist
 }
