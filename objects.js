@@ -1,6 +1,6 @@
 var playlist = { 
   "Slowdive": "Alison", 
-  "My Bloody Valentine": "Sometimes"
+  My Bloody Valentine: "Sometimes"
 };
 console.log(playlist);
 
