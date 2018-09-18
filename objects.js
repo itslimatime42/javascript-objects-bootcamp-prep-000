@@ -1,4 +1,4 @@
-var playlist = { "stones": "Can't You Hear Me Knockin" };
+var playlist = { stones: "Cant You Hear Me Knockin" };
 console.log(playlist);
 
 function updatePlaylist(playlist, artistName, songTitle) {
